@@ -1,12 +1,26 @@
-# React + Vite
+# 🌾 AgriGuard – Plant Disease Detection System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
+**AgriGuard** is an application that detects plant diseases using **image processing techniques**.  
+Users upload an image of a plant leaf, and the system analyzes the image to identify possible diseases.  
+This helps farmers and users take **early preventive actions** to protect crops and improve agricultural productivity. 🌿📷
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Python / Flask  
+- **Image Processing:** OpenCV  
+- **Machine Learning:** TensorFlow / CNN Model  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ How It Works
+1️⃣ User uploads an image of a plant leaf 📷  
+2️⃣ The system preprocesses the image (resize, filtering, etc.)  
+3️⃣ Image processing / ML model analyzes the leaf patterns  
+4️⃣ The system predicts the **possible plant disease** 🌿  
+5️⃣ The result is displayed to the user
+
+---
+
